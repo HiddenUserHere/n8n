@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/HiddenUserHere/n8n.git
     targetRevision: main
-    path: n8n/manifests
+    path: manifests
   destination:
     server: https://kubernetes.default.svc
     namespace: n8n

@@ -50,3 +50,7 @@ spec:
               value: https://n8n.jvfl.dev/
             - name: GENERIC_TIMEZONE
               value: America/Sao_Paulo
+            - name: NODE_FUNCTION_ALLOW_BUILTIN
+              value: "assert,buffer,child_process,crypto,fs,http,https,net,os,path,process,stream,url,util,vm,zlib"
+            - name: NODE_FUNCTION_ALLOW_EXTERNAL
+              value: "parse5,cheerio,lodash,axios,dayjs"
