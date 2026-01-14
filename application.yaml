@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/SEU_USUARIO/SEU_REPO.git
+    repoURL: https://github.com/HiddenUserHere/n8n.git
     targetRevision: main
     path: n8n/manifests
   destination:
