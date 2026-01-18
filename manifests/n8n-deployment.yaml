@@ -54,3 +54,5 @@ spec:
               value: "assert,buffer,child_process,crypto,fs,http,https,net,os,path,process,stream,url,util,vm,zlib"
             - name: NODE_FUNCTION_ALLOW_EXTERNAL
               value: "parse5,cheerio,lodash,axios,dayjs"
+            - name: N8N_INSECURE_DISABLE_WEBHOOK_IFRAME_SANDBOX
+              value: false
